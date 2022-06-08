@@ -1,0 +1,147 @@
+<html> 
+  <head>
+    <style>
+        table.scrolldown {
+            width: 200px;
+              
+            /* border-collapse: collapse; */
+            border-spacing: 0;
+            border: 2px solid black;
+        }
+        table.scrolldown tbody, table.scrolldown thead {
+            display: block;
+            
+        }
+        table.noscroll{  
+             
+          width:375px;
+            /* border-collapse: collapse; */
+            border-collapse: collapse;
+            border: 2px solid black;
+            background-color: lightgray;
+        }
+         /* table.scrolldown {
+          border-collapse: collapse;
+          border-spacing: 0;
+          width: 35%;
+          border: 1px solid #ddd;
+        }  */
+        table.scrolldown tbody {
+              
+              /* Set the height of table body */
+              height: 300px; 
+                
+              /* Set vertical scroll */
+              overflow-y: auto;
+              overflow-x: hidden;
+                
+              /* Hide the horizontal scroll */
+              
+          }
+        th, td {
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even){background-color: #f2f2f2}
+        </style>
+    
+  </head>
+
+  <body> 
+ 
+    <div style="overflow-x:auto;">
+        <table class="noscroll">
+          <tr >
+            <th>Evaluation factor</th>
+            <th>Weightage</th>
+          </tr>
+          </table>
+          <table class="scrolldown">
+          <tr>
+            <td> <form><input type="text" placeholder="Enter the evaluation factor"></form></td>
+            <td> <form><input type="text" placeholder="Enter a number"></form></td>
+          </tr>
+          <tr>
+            <td> <form><input type="text" placeholder="Enter the evaluation factor"></form></td>
+            <td> <form><input type="text" placeholder="Enter a number"></form></td>
+          </tr>
+          <tr>
+            <td> <form><input type="text" placeholder="Enter the evaluation factor"></form></td>
+            <td> <form><input type="text" placeholder="Enter a number"></form></td>           
+          </tr>
+          <tr>
+            <td> <form><input type="text" placeholder="Enter the evaluation factor"></form></td>
+            <td> <form><input type="text" placeholder="Enter a number"></form></td>           
+          </tr>
+          <tr>
+            <td> <form><input type="text" placeholder="Enter the evaluation factor"></form></td>
+            <td> <form><input type="text" placeholder="Enter a number"></form></td>                      
+          </tr>
+          <tr>
+            <td> <form><input type="text" placeholder="Enter the evaluation factor"></form></td>
+            <td> <form><input type="text" placeholder="Enter a number"></form></td>                      
+          </tr>
+          <tr>
+            <td> <form><input type="text" placeholder="Enter the evaluation factor"></form></td>
+            <td> <form><input type="text" placeholder="Enter a number"></form></td>           
+          </tr>
+          <tr>
+            <td> <form><input type="text" placeholder="Enter the evaluation factor"></form></td>
+            <td> <form><input type="text" placeholder="Enter a number"></form></td>           
+          </tr>
+        </table>
+      </div>
+      
+      
+  </body>
+</html>
+<!-- 
+  <html>
+
+  </html>
+  <head>
+<style>
+    a {
+    display: inline-block;
+    width: 50px;
+    text-decoration: none;
+  }
+  nav, .scroll-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  nav {
+    width: 339px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+  .scroll-container {
+    width: 350px;
+    height: 200px;
+    overflow-y: scroll;
+    
+  }
+  .scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5em;
+  }
+</style>
+  </head>
+<body>
+  <nav>
+    <a href="#page-1">1</a>
+    <a href="#page-2">2</a>
+    <a href="#page-3">3</a>
+  </nav>
+  <div class="scroll-container">
+    <div class="scroll-page" id="page-1">1</div>
+    <div class="scroll-page" id="page-2">2</div>
+    <div class="scroll-page" id="page-3">3</div>
+  </div>
+</body>
+</html> -->
